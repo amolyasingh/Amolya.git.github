@@ -1,0 +1,26 @@
+{
+
+"accountsList" : [
+		{
+			"accountId" : "rxt219",
+			"accountStatus" : "active",
+			"entitlement" : "mc-azure-dev-readonly",
+			"indicator" : "N",
+			"indicatorOwner" : ""
+		},
+		{
+			"accountId" : "pxs156",
+			"accountStatus" : "active",
+			"entitlement" : "mc-azure-dev-readonly",
+			"indicator" : "N",
+			"indicatorOwner" : ""
+		}
+]
+}
+
+// Command to change json array to csv file by using ja simply -->>
+
+echo '{"key1":"val1", "myarray":["abc", "def", "ghi"]}' | jq -r '.myarray | @csv'
+"abc","def","ghi"
+
+gcloud compute ssh usis-ac-mc-test-vault --internal-ip // COMMAND TO CONNECT THE VM IN SDK 
