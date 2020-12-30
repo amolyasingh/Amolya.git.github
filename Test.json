@@ -23,4 +23,4 @@
 echo '{"key1":"val1", "myarray":["abc", "def", "ghi"]}' | jq -r '.myarray | @csv'
 "abc","def","ghi"
 
-gcloud compute ssh usis-ac-mc-test-vault --internal-ip // COMMAND TO CONNECT THE VM IN SDK 
+gcloud compute ssh usis-ac-mc-test-vault --internal-ip // COMMAND TO CONNECT THE VM IN SDK Amolya
